@@ -12,7 +12,7 @@
 
 <body>
 
-    <h1 style="color: rgb(65, 65, 65);">Basic Calculator</h1>
+    <h1 style="color: rgb(65, 65, 65);" class="practice-header">Basic Calculator</h1>
 
     <div class="practice-form">
         <h2 id="demo-para" style="color: rgb(53, 53, 53);">
@@ -26,7 +26,7 @@
         <br><br>
 
         <strong>Number 2:</strong>
-        <input type="text" value="" id="demo-input2" placeholder="Number 2" onkeypress="demo_sum()">
+        <input type="text" value="" id="demo-input2" placeholder="Number 2" onkeyup="demo_sum()">
         <br><br>
 
         <p class="result-paragraph"></p><br>
@@ -34,20 +34,22 @@
         <button class="demo-button" onclick="demo_sum()" id="demo-button-sum">
             Sum <i class="uil uil-plus"></i>
         </button>
-        
+
         <button class="demo-button" onclick="demo_subtract()" id="demo-button-subtract">
             Subtract -
         </button>
-        
+
         <button class="demo-button" onclick="demo_multiply()" id="demo-button-multiply">
             Multiply <i class="uil uil-multiply"></i>
         </button>
-        
+
         <button class="demo-button" onclick="demo_divide()" id="demo-button-devide">
             Devide %
         </button>
     </div>
 
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="practice1-Basic_Calculator.js"></script>
 </body>
 
