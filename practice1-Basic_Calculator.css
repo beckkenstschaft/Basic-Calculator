@@ -59,3 +59,16 @@ h1{
     margin-top: 30px;
     margin-bottom: 50px;
 }
+
+.copyright-para{
+    margin-top: 695px;
+    position: fixed;
+    margin-left: 1300px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(47, 47, 47);
+    border-bottom: solid;
+    border-width: 1px;
+}
